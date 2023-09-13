@@ -5,7 +5,7 @@ import Earthlanding from './pages/earthlanding';
 
 function App() {
   return (
-    <div className='App'>
+    <div>
       <Routes>
         <Route
           path='/'
