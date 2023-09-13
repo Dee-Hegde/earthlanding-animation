@@ -47,7 +47,7 @@ function Earthlanding() {
         <ParallaxLayer
           offset={3}
           speed={2}>
-          <h2>Yeah!.. I reached Earth.</h2>
+          {/* <h2>Yeah!.. I reached Earth.</h2> */}
         </ParallaxLayer>
       </Parallax>
     </div>
