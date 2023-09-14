@@ -18,11 +18,11 @@ function Dashboard() {
       link: '/earthlanding',
     },
     {
-      title: 'Earth Landing',
+      title: 'Jumping-Doraemon',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
-      img: dashboardImages.landingcat,
-      link: '/earthlanding',
+      img: dashboardImages.flyDora,
+      link: '/doraemon-jump',
     },
     {
       title: 'Earth Landing',
