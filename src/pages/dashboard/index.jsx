@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../assets/css/dashboard.scss';
+import './dashboard.scss';
 import { dashboardImages } from '../../utils/dashboard-helper';
-import {useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Dashboard() {
   const navigate = useNavigate();
@@ -12,29 +12,26 @@ function Dashboard() {
   const navItems = [
     {
       title: 'Earth Landing',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       img: dashboardImages.landingcat,
       link: '/earthlanding',
     },
     {
       title: 'Jumping-Doraemon',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+
       img: dashboardImages.flyDora,
       link: '/doraemon-jump',
     },
     {
       title: 'Earth Landing',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       img: dashboardImages.landingcat,
       link: '/earthlanding',
     },
     {
       title: 'Earth Landing',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       img: dashboardImages.landingcat,
       link: '/earthlanding',
     },

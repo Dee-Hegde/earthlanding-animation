@@ -2,7 +2,7 @@ import React from 'react';
 import moon from '../../assets/images/earthlanding/moon.png';
 import land from '../../assets/images/earthlanding/land.png';
 import cat from '../../assets/images/earthlanding/cat.gif';
-import '../../assets/css/earthlanding.scss';
+import './earthlanding.scss';
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
