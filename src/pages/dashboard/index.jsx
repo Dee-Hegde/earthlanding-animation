@@ -24,10 +24,10 @@ function Dashboard() {
       link: '/doraemon-jump',
     },
     {
-      title: 'Earth Landing',
+      title: 'Page Scroll Effect',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      img: dashboardImages.landingcat,
-      link: '/earthlanding',
+      img: dashboardImages.desert,
+      link: '/page-scroll',
     },
     {
       title: 'Earth Landing',

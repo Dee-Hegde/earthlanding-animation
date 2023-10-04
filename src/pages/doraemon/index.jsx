@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './doraemon.scss';
 import { dashboardImages } from '../../utils/dashboard-helper';
 import standDora from '../../assets/images/doraemon-jump/standDora.png';
