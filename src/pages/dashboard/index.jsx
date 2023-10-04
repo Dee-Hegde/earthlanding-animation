@@ -12,13 +12,14 @@ function Dashboard() {
   const navItems = [
     {
       title: 'Page Scroll Effect',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      description:
+        'Scroll down to see the Parallax effect, without using the Parallax packages.',
       img: dashboardImages.desert,
       link: '/page-scroll',
     },
     {
       title: 'Jumping-Doraemon',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      description: 'funny scroll work, with some nice animations',
 
       img: dashboardImages.flyDora,
       link: '/doraemon-jump',
@@ -26,9 +27,15 @@ function Dashboard() {
 
     {
       title: 'Earth Landing',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      description: 'Cat jump effect from moon to earth. with parallax effect.',
       img: dashboardImages.landingcat,
       link: '/earthlanding',
+    },
+    {
+      title: 'Scroll Indicator',
+      description: 'Scroll down to see the scroll indicator effect',
+      img: dashboardImages.scrollIndicator,
+      link: '/scroll-progressbar',
     },
   ];
 
