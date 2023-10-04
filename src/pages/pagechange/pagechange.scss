@@ -15,6 +15,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    .infomation-container{
+        height: 60px;
+        position: absolute;
+        top:0px;
+        right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
   }
   .text-block {
     background-color: #ffffff;

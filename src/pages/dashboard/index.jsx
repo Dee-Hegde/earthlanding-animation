@@ -6,15 +6,15 @@ import { useNavigate } from 'react-router-dom';
 function Dashboard() {
   const navigate = useNavigate();
   const trending = {
-    img: dashboardImages.trending,
-    link: '/earthlanding',
+    img: dashboardImages.desert,
+    link: '/page-scroll',
   };
   const navItems = [
     {
-      title: 'Earth Landing',
+      title: 'Page Scroll Effect',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      img: dashboardImages.landingcat,
-      link: '/earthlanding',
+      img: dashboardImages.desert,
+      link: '/page-scroll',
     },
     {
       title: 'Jumping-Doraemon',
@@ -23,12 +23,7 @@ function Dashboard() {
       img: dashboardImages.flyDora,
       link: '/doraemon-jump',
     },
-    {
-      title: 'Page Scroll Effect',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      img: dashboardImages.desert,
-      link: '/page-scroll',
-    },
+
     {
       title: 'Earth Landing',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
