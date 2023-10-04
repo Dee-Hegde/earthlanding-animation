@@ -1,16 +1,20 @@
-import React, { useEffect, useRef, useState } from 'react';
-import '../../assets/css/doraemon.scss';
+import React, { useEffect, useState } from 'react';
+import './doraemon.scss';
 import { dashboardImages } from '../../utils/dashboard-helper';
 import standDora from '../../assets/images/doraemon-jump/standDora.png';
 import cryNobi from '../../assets/images/doraemon-jump/crynobi.png';
 import gfDora from '../../assets/images/doraemon-jump/gfDora.png';
+import SpeechBox from '../../components/doraemon/SpeechBox';
 
 
 function Doraemon() {
   const [totalHieght, setTotalHeight] = useState(0);
   const [flyDoraPosition, setFlyDoraPosition] = useState({top:20, width:15});
+  const chat = {
+    nobi_default: 'Doraemon Where are you!?. Give me some gadgets',
+    dora_dialog: `Hey Nobita, Don't cry, I am always here to help you.`,
+  };
 
-  console.log(totalHieght);
 
   useEffect(() => {
     function logScrollY() {
@@ -61,11 +65,18 @@ function Doraemon() {
         <div className='cloud'></div>
       </div>
       <div className='second-container'>
-        <img
-          className={totalHieght < 299 ? 'display-none' : 'stand-dora'}
-          src={standDora}
-          alt=''
-        />
+        <div className='chat-box-1'>
+          <SpeechBox
+            t1={chat?.nobi_default}
+            t2={chat?.nobi_cry}
+          />
+        </div>
+        <div
+         className={totalHieght < 299 ? 'display-none' : 'chat-box-2'}>
+          <SpeechBox
+            t1={chat?.dora_dialog}
+          />
+        </div>
         <img
           className={totalHieght < 299 ? 'display-none' : 'stand-dora'}
           src={standDora}

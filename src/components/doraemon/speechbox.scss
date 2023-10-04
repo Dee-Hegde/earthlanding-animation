@@ -1,0 +1,22 @@
+.chat_block {
+  display: block;
+  padding-top: 10px;
+  width: 100%;
+}
+
+
+.chat_bubble.left {
+  margin-left:70px;
+  background:whitesmoke;
+  padding: 24px 16px;
+  border-radius: 16px;
+}
+
+
+.chat_bubble.left:after {
+  top:28px;
+  left:-20px;
+  bottom:auto;
+  border-width:10px 20px 10px 0;
+  border-color:transparent #f3961c;
+}

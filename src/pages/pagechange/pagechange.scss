@@ -1,0 +1,50 @@
+.page_scroll_container {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  h2 {
+    font-size: 125px;
+  }
+  .section-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .infomation-container{
+        height: 60px;
+        position: absolute;
+        top:0px;
+        right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+  }
+  .text-block {
+    background-color: #ffffff;
+    color: #222;
+  }
+  .parallax {
+    background-image: url('../../assets//images//pagechangeonscroll//desert.png');
+  }
+  .parallax1 {
+    background-image: url('../../assets//images//pagechangeonscroll//mountain.png');
+  }
+  .parallax2 {
+    background-image: url('../../assets//images/pagechangeonscroll//sea.png');
+  }
+  .parallax3 {
+    background-image: url('../../assets//images//pagechangeonscroll//galaxy.png');
+  }
+  .text-block p {
+    margin: 75px;
+    font-size: 22px;
+  }
+}

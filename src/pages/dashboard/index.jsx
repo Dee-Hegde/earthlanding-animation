@@ -1,42 +1,41 @@
 import React from 'react';
-import '../../assets/css/dashboard.scss';
+import './dashboard.scss';
 import { dashboardImages } from '../../utils/dashboard-helper';
-import {useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Dashboard() {
   const navigate = useNavigate();
   const trending = {
-    img: dashboardImages.trending,
-    link: '/earthlanding',
+    img: dashboardImages.desert,
+    link: '/page-scroll',
   };
   const navItems = [
     {
-      title: 'Earth Landing',
+      title: 'Page Scroll Effect',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
-      img: dashboardImages.landingcat,
-      link: '/earthlanding',
+        'Scroll down to see the Parallax effect, without using the Parallax packages.',
+      img: dashboardImages.desert,
+      link: '/page-scroll',
     },
     {
       title: 'Jumping-Doraemon',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
+      description: 'funny scroll work, with some nice animations',
+
       img: dashboardImages.flyDora,
       link: '/doraemon-jump',
     },
+
     {
       title: 'Earth Landing',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
+      description: 'Cat jump effect from moon to earth. with parallax effect.',
       img: dashboardImages.landingcat,
       link: '/earthlanding',
     },
     {
-      title: 'Earth Landing',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias corrupti mollitia dolores voluptate. Veritatis modi quod quia reiciendis quae excepturi praesentium nisi. Deserunt commodi voluptas ex voluptatibus modi expedita?',
-      img: dashboardImages.landingcat,
-      link: '/earthlanding',
+      title: 'Scroll Indicator',
+      description: 'Scroll down to see the scroll indicator effect',
+      img: dashboardImages.scrollIndicator,
+      link: '/scroll-progressbar',
     },
   ];
 

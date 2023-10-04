@@ -3,6 +3,8 @@ import './assets/css/App.css';
 import Dashboard from './pages/dashboard';
 import Earthlanding from './pages/earthlanding';
 import Doraemon from './pages/doraemon';
+import PageChangeOnScroll from './pages/pagechange';
+import OnScrollProgress from './pages/onscrollprogress';
 
 function App() {
   return (
@@ -19,6 +21,14 @@ function App() {
         <Route
           path='/doraemon-jump'
           element={<Doraemon />}
+        />
+        <Route
+          path='/page-scroll'
+          element={<PageChangeOnScroll />}
+        />
+        <Route
+          path='/scroll-progressbar'
+          element={<OnScrollProgress />}
         />
       </Routes>
     </div>
