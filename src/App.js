@@ -5,6 +5,7 @@ import Earthlanding from './pages/earthlanding';
 import Doraemon from './pages/doraemon';
 import PageChangeOnScroll from './pages/pagechange';
 import OnScrollProgress from './pages/onscrollprogress';
+import BringToSame from './pages/bringToSame';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
         <Route
           path='/scroll-progressbar'
           element={<OnScrollProgress />}
+        />
+        <Route
+          path='/bring-to-same'
+          element={<BringToSame />}
         />
       </Routes>
     </div>
