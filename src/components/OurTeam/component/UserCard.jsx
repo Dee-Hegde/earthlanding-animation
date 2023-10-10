@@ -9,41 +9,42 @@ function UserCard({ team }) {
     rotateCard(!cardFlip);
   };
   return (
-    <div className="ourTeamCardContainer">
-      <div className="personDetailsWrapper">
-      </div>
-      <div className="flip-box">
+    <div className='ourTeamCardContainer'>
+      <div className='personDetailsWrapper'></div>
+      <div className='flip-box'>
         <div
           className={`${
             cardFlip
-              ? "flip-box-inner rotateEffect"
-              : "flip-box-inner rotateEffectback"
-          }`}
-        >
-          <div className="flip-box-front">
-            <div className="teamPictureContainer">
+              ? 'flip-box-inner rotateEffect'
+              : 'flip-box-inner rotateEffectback'
+          }`}>
+          <div className='flip-box-front'>
+            <div className='teamPictureContainer'>
               <img
-                className="teamMemberPicture"
+                className='teamMemberPicture'
                 src={team?.picture}
-                alt="Paris"
+                alt='Paris'
               />
               <img
                 onClick={handleFlip}
-                className="informationIcon"
+                className='informationIcon'
                 src={Information}
-                alt=""
+                alt=''
               />
             </div>
           </div>
-          <div className="flip-box-back">
-            <div className="teamDataContainer">
-              <h2>{team?.about}</h2>
+          <div className='flip-box-back'>
+            <div className='teamDataContainer'>
+              <p>Name: {team?.name}</p>
+              <p>Role: {team?.role}</p>
+              <p>Time Period: {team?.timePeriod}</p>
+              <p>About: {team?.about}</p>
             </div>
             <img
               onClick={handleFlip}
-              className="informationIcon"
+              className='informationIcon'
               src={Information}
-              alt=""
+              alt=''
             />
           </div>
         </div>

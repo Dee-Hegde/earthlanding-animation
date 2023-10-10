@@ -292,12 +292,10 @@
   }
   .teamDataContainer {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 8px;
     position: relative;
     border-radius: 8px;
+    text-align: left;
   }
   .teamMemberPicture {
     width: 100%;
