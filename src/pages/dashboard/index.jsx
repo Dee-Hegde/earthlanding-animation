@@ -18,6 +18,12 @@ function Dashboard() {
       link: '/page-scroll',
     },
     {
+      title: 'Bring to same',
+      description: 'Scroll down to see the effect',
+      img: dashboardImages.cricketers,
+      link: '/bring-to-same',
+    },
+    {
       title: 'Jumping-Doraemon',
       description: 'funny scroll work, with some nice animations',
 
