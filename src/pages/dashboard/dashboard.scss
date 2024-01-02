@@ -36,12 +36,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
-    gap: 16px;
+    justify-content: space-between;
+    gap: 32px;
   }
   .card-container {
-    flex-basis: 24%;
+    flex-basis: 30%;
     height: 350px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -81,6 +82,30 @@
         font-weight: 400;
         color: #c6c4c4;
       }
+    }
+  }
+  .card-container-dummy {
+    flex-basis: 24%;
+    min-width: 300px;
+  }
+
+  @media (max-width: 992px) {
+    .cards-container {
+      justify-content: space-evenly;
+    }
+  }
+  @media (max-width: 750px) {
+    .card-container {
+      flex-basis: 100%;
+      min-width: 300px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 8px;
+      border: 1px solid rgb(158, 155, 155);
+      cursor: pointer;
     }
   }
 }
