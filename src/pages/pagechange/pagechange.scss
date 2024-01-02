@@ -16,20 +16,24 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    .infomation-container{
-        height: 60px;
-        position: absolute;
-        top:0px;
-        right: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 12px;
+    .infomation-container {
+      height: 60px;
+      position: absolute;
+      top: 0px;
+      right: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+    h2 {
+      font-size: 64px;
     }
   }
   .text-block {
     background-color: #ffffff;
     color: #222;
+    width: 100%;
   }
   .parallax {
     background-image: url('../../assets//images//pagechangeonscroll//desert.png');
@@ -46,5 +50,11 @@
   .text-block p {
     margin: 75px;
     font-size: 22px;
+  }
+  @media (max-width: 750px) {
+    .text-block p {
+      margin: 16px;
+      font-size: 18px;
+    }
   }
 }

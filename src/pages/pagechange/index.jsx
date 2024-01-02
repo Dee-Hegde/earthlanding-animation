@@ -111,6 +111,24 @@ function PageChangeOnScroll() {
       <section className='section-background parallax3'>
         <h2>Galaxy</h2>
       </section>
+      <section className='text-block'>
+        {includeInfo && (
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sed?
+            Ab, quibusdam. Aliquam iusto hic nulla quisquam inventore quo modi
+            cupiditate minima odio eum! Totam perferendis eum non enim accusamus
+            temporibus assumenda cupiditate inventore adipisci dolorem. Ducimus
+            temporibus officiis corporis excepturi harum soluta, perspiciatis
+            obcaecati doloribus voluptatum, iste illo tempora. Eos quis quae
+            commodi unde sequi! Eius eligendi facere aut similique. Temporibus
+            exercitationem minus reiciendis nobis. Sit, enim ex. Vel sapiente ad
+            reprehenderit modi rem doloremque illum dignissimos necessitatibus,
+            doloribus commodi mollitia ut consectetur amet. Accusamus,
+            consequatur suscipit sit quas ab magni est dolorum sunt quo iure
+            tenetur facere temporibus!
+          </p>
+        )}
+      </section>
     </div>
   );
 }

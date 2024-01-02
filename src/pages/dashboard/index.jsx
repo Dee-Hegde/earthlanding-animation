@@ -43,6 +43,12 @@ function Dashboard() {
       img: dashboardImages.scrollIndicator,
       link: '/scroll-progressbar',
     },
+    {
+      title: 'Infinite Scroll',
+      description: 'Scroll down to see the infinite scroll effect',
+      img: dashboardImages.infiniteScroll,
+      link: '/infinite-scroll',
+    },
   ];
 
   const handleNavigation = (link) => {
@@ -77,6 +83,7 @@ function Dashboard() {
             </div>
           </div>
         ))}
+        <div className='card-container-dummy'></div>
       </div>
     </div>
   );
